@@ -168,7 +168,7 @@ header {
     font-size: 3rem;
 }
 
-.cta-btn {
+.cta-btn, .buy-btn {
     display: inline-block;
     background: var(--primary-color);
     color: white;
@@ -178,7 +178,7 @@ header {
     transition: all 0.3s;
 }
 
-.cta-btn:hover {
+.cta-btn:hover, .product-card:hover .buy-btn {
     background: var(--secondary-color);
 }
 
