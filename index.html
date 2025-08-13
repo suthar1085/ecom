@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Product Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">#BrandName</div>
+
+                <input type="checkbox" id="menu-toggle" />
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                </label>
+
+                <ul class="nav-links m-0">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="dropdown">
+                        <a href="#">Products</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">New Arrivals</a></li>
+                            <li><a href="#">Best Sellers</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container d-flex bg">
+                <div class="hero-content">
+                    <h1>UPCYCLED FURNITURE CREATION</h1>
+                    <p>Trendy. Affordable. Quality.</p>
+                    <a href="#" class="cta-btn">Shop Now</a>
+                </div>
+                <div class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="video-section">
+            <video autoplay muted loop playsinline>
+                <source src="assets/video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            <div class="container position-relative">
+                <div class="video-caption">Explore in Action</div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h2>Our Products</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="assets/product-1.avif" alt="Product 1" />
+                        <h3>Chest of drawers</h3>
+                        <p>Rs.9,990</p>
+                        <a href="#" class="buy-btn">Buy Now</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="assets/product-2.avif" alt="Product 1" />
+                        <h3>Bedside tables</h3>
+                        <p>Rs.899</p>
+                        <a href="#" class="buy-btn">Buy Now</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="assets/product-3.avif" alt="Product 1" />
+                        <h3>Coffee table</h3>
+                        <p>Rs.3,990</p>
+                        <a href="#" class="buy-btn">Buy Now</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="assets/product-4.avif" alt="Product 1" />
+                        <h3>Sofas</h3>
+                        <p>Rs.35,990</p>
+                        <a href="#" class="buy-btn">Buy Now</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="assets/product-5.avif" alt="Product 1" />
+                        <h3>Armchairs</h3>
+                        <p>Rs.25,980</p>
+                        <a href="#" class="buy-btn">Buy Now</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="assets/product-6.avif" alt="Product 1" />
+                        <h3>Lounge chairs</h3>
+                        <p>Rs.8,990</p>
+                        <a href="#" class="buy-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="Benefits">
+            <div class="features container">
+                <div class="feature">
+                    <img width="100" height="100"
+                        src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/100/external-free-shipping-shopping-and-commerce-activities-smashingstocks-circular-smashing-stocks.png"
+                        alt="Free Shipping" />
+                    <h4>Free Shipping</h4>
+                </div>
+                <div class="feature">
+                    <img width="100" height="100" src="https://img.icons8.com/color/100/online-support.png"
+                        alt="24/7 Support" />
+                    <h4>24/7 Support</h4>
+                </div>
+                <div class="feature">
+                    <img width="100" height="100"
+                        src="https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/100/external-Secure-Payments-cyber-security-smashingstocks-circular-smashing-stocks.png"
+                        alt="Secure Payments" />
+                    <h4>Secure Payments</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container py-5 pb-1">
+            <div class="footer-content gap-4 gap-md-0">
+                <div>
+                    <h4>Quick Links</h4>
+                    <a href="#">Home</a><br />
+                    <a href="#">About</a><br />
+                    <a href="#">Products</a>
+                </div>
+                <div>
+                    <h4>Follow Us</h4>
+                    <a href="#">Facebook</a><br />
+                    <a href="#">Instagram</a><br />
+                    <a href="#">Twitter</a>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <p class="m-0">Email: info@example.com</p>
+                    <p>Phone: +123-456-7890</p>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">
+                &copy; 2025 BrandName. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
